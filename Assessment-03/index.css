@@ -1,0 +1,54 @@
+#to {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #eef;
+}
+
+#from {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #eef;
+}
+
+#message {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 560px;
+    height: 200px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #eef;
+}
+
+#postcard {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(imgs/default.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containers {
+    width: 150px;
+    height: 200px;
+    background-color: antiquewhite;
+    display: inline-block;
+    margin: 1px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.newPrev {
+    background-color: #eef;
+    width: 100px;
+    margin-top: 10px;
+}
